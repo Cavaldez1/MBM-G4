@@ -4,7 +4,7 @@ Integrantes: Helen Correa, Joel Malacatus, Stephen Sarmiento, Christian Valdez
 Objetivos: 
 Objetivo general
 
-Identificar molecularmente bacterias ambientales mediante el análisis y secuenciación del gen housekeeping recA, con el fin de determinar su clasificación taxonómica y establecer la presencia de bacterias del género Vibrio en muestras ambientales.
+Identificar una bacteria ambiental mediante el análisis y secuenciación del gen housekeeping recA, con el fin de determinar su clasificación taxonómica y establecer la presencia de bacterias del género Vibrio en muestras ambientales.
 
 Objetivos específicos
 Aislar y caracterizar bacterias ambientales mediante métodos microbiológicos convencionales a partir de muestras obtenidas del ambiente de estudio.
