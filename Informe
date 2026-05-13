@@ -15,27 +15,12 @@ Objetivo:
 4. Discusión  
 
 5. Conclusiones  
-A partir del procedimiento realizado, se pueden obtener varias conclusiones relacionadas con el control de calidad, el procesamiento bioinformático y la identificación molecular del microorganismo:
-La calidad inicial de las secuencias crudas no era óptima. Con un total de 6 secuencias en formato fastaq.
-Los reportes obtenidos con FastQC⁠ mostraron daños o baja calidad al inicio y al final de las lecturas. Esto es común en secuenciación y puede deberse a errores del secuenciador, adaptadores o pérdida de precisión en los extremos de lectura.
-El uso de Trimmomatic permitió mejorar la calidad de las lecturas.
-El recorte de regiones de baja calidad con Trimmomatic⁠ eliminó nucleótidos problemáticos del principio y final de las secuencias, obteniendo datos más confiables para el análisis posterior. Esto aumenta la precisión en ensamblaje, alineamiento e identificación.
-La conversión y ensamblaje de las secuencias permitió generar una secuencia consenso
-La unión de las lecturas forward y reverse ayudó a reconstruir una secuencia más completa del fragmento analizado. El consenso final representa la región genética más probable obtenida a partir de ambas lecturas.
-La identidad y similitud de 88.6% indican coincidencia parcial con secuencias conocidas
-Un porcentaje de identidad de 88.6% sugiere que la secuencia tiene relación con organismos del género Vibrio, pero no corresponde a una coincidencia perfecta. Esto puede indicar:
-- Presencia de variaciones genéticas.
-- Secuencia incompleta.
-- Regiones de baja cobertura.
-- Errores residuales de secuenciación,
-- Incluso una cepa distinta o poco caracterizada.
-El gen recA permitió la identificación molecular del organismo
-El gen recA es ampliamente utilizado en identificación bacteriana y estudios filogenéticos porque participa en reparación y recombinación del ADN y suele conservarse entre bacterias relacionadas.
-La búsqueda en NCBI permitió asociar la secuencia con Vibrio
-El análisis en NCBI BLAST⁠ indicó afinidad con bacterias del género Vibrio, por lo que el microorganismo analizado probablemente pertenece a este grupo bacteriano.
-El flujo bioinformático aplicado fue adecuado para identificación genética.
-El proceso completo de control de calidad, trimming, ensamblaje, generación de consenso y búsqueda en bases de datos— demuestra un flujo de trabajo estándar y correcto en bioinformática para análisis de secuencias.
-Como conclusión general, el análisis permitió depurar las secuencias originales y obtener una identificación molecular probable de un organismo del género Vibrio mediante el gen recA. Sin embargo, debido a que la identidad obtenida fue de 88.6%, sería recomendable realizar análisis adicionales o secuenciar regiones complementarias para confirmar con mayor precisión la especie exacta.
+A partir del procedimiento microbiológico y bioinformático realizado, se concluye que fue posible aislar y analizar molecularmente bacterias ambientales mediante el estudio del gen housekeeping recA, cumpliendo con los objetivos establecidos en la investigación.
+Los análisis de control de calidad realizados con FastQC evidenciaron que las secuencias crudas presentaban regiones de baja calidad en los extremos de lectura, situación común en procesos de secuenciación. Posteriormente, el uso de Trimmomatic permitió eliminar nucleótidos y regiones problemáticas, mejorando la confiabilidad de las secuencias utilizadas en el análisis posterior.
+El ensamblaje y procesamiento de las lecturas permitieron generar una secuencia consenso representativa del fragmento amplificado del gen recA. Este procedimiento facilitó el análisis molecular del aislamiento bacteriano y demostró la utilidad de las herramientas bioinformáticas para el tratamiento y validación de datos genéticos.
+El análisis de similitud mediante BLAST en la base de datos NCBI mostró una identidad aproximada del 88.6 % con secuencias asociadas al género Vibrio. Aunque este porcentaje indica afinidad taxonómica con dicho grupo bacteriano, la coincidencia parcial sugiere la posibilidad de variaciones genéticas, regiones incompletas o la presencia de una cepa poco caracterizada, por lo que no fue posible confirmar con total precisión la especie bacteriana.
+El gen recA demostró ser un marcador molecular útil para la identificación bacteriana y el análisis filogenético, debido a su conservación entre especies relacionadas y su importancia funcional en procesos de recombinación y reparación del ADN.
+En términos generales, el flujo de trabajo aplicado —incluyendo aislamiento bacteriano, extracción de ADN, amplificación por PCR, secuenciación y análisis bioinformático— permitió establecer una identificación molecular preliminar compatible con bacterias del género Vibrio presentes en muestras ambientales. Sin embargo, se recomienda complementar el estudio mediante la secuenciación de otros genes marcadores o mediante una mayor cobertura de secuenciación para confirmar con mayor exactitud la clasificación taxonómica del microorganismo analizado.
 
 6. Referencias bibliográficas  
 1.	Durand K, Ogier JC, Nam K. The evaluation of shotgun sequencing and rpoB metabarcoding for taxonomic profiling of bacterial communities. BMC Microbiol. 2025;25:413. doi: 10.1186/s12866-025-04149-3.
