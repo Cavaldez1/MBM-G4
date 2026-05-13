@@ -4,11 +4,68 @@ Nombre: Joel Malacatus
 Nombre: Christian Valdez  
 Nombre: Helen Correa  
 Nombre: Stephen Sarmiento  
-Objetivo:    
+Objetivo:   
+Objetivo general
+
+Identificar molecularmente bacterias ambientales mediante el análisis y secuenciación del gen housekeeping recA, con el fin de determinar su clasificación taxonómica y establecer la presencia de bacterias del género Vibrio en muestras ambientales.
+
+Objetivos específicos
+-Aislar y caracterizar bacterias ambientales mediante métodos microbiológicos convencionales a partir de muestras obtenidas del ambiente de estudio.
+-Extraer ADN bacteriano de los aislamientos obtenidos para su posterior análisis molecular.
+-Amplificar el gen housekeeping recA mediante la técnica de reacción en cadena de la polimerasa (PCR) para evaluar su utilidad como marcador molecular en la identificación bacteriana.
+-Secuenciar los productos amplificados del gen recA y analizar las secuencias obtenidas mediante herramientas bioinformáticas y bases de datos genéticas.
 
 1. Introducción  
 
+La identificación molecular de bacterias ambientales constituye actualmente una de las herramientas más importantes para el estudio de la diversidad microbiana y el monitoreo ecológico de ecosistemas naturales y antropizados. Las bacterias presentes en suelo, agua, sedimentos y ambientes contaminados participan activamente en procesos biogeoquímicos, biodegradación y transferencia genética, influyendo directamente en la estabilidad ambiental y en la salud pública. En los últimos años, el desarrollo de técnicas moleculares de alta resolución ha permitido superar las limitaciones de los métodos microbiológicos tradicionales basados en cultivo y caracterización fenotípica. Investigaciones recientes destacan que las metodologías de secuenciación y metabarcoding permiten una identificación más precisa de comunidades bacterianas complejas presentes en matrices ambientales. Asimismo, el análisis de genes conservados ha mejorado significativamente la discriminación taxonómica entre especies estrechamente relacionadas. Estas estrategias han fortalecido el campo de la microbiología ambiental al facilitar estudios filogenéticos, ecológicos y epidemiológicos de microorganismos de interés ambiental1. 
+Entre los marcadores moleculares empleados para identificación bacteriana destacan los genes housekeeping, los cuales codifican proteínas esenciales para el metabolismo y supervivencia celular. Estos genes presentan regiones conservadas que permiten amplificación universal y regiones variables útiles para diferenciación taxonómica. Dentro de este grupo, el gen recA ha sido ampliamente utilizado debido a su participación en mecanismos de recombinación homóloga y reparación del ADN bacteriano. Estudios recientes han demostrado que los genes housekeeping poseen mayor resolución filogenética que el gen 16S rRNA en determinados complejos bacterianos ambientales y clínicos. Además, el uso de recA en análisis multilocus permite distinguir especies bacterianas estrechamente relacionadas que no pueden diferenciarse únicamente mediante secuenciación ribosomal. La incorporación de genes housekeeping en estrategias de identificación molecular ha fortalecido los sistemas modernos de taxonomía bacteriana y análisis evolutivo2.
+El incremento de investigaciones enfocadas en microbiomas ambientales ha evidenciado la necesidad de implementar metodologías más robustas para caracterizar microorganismos presentes en ecosistemas complejos. Estudios publicados recientemente muestran que la secuenciación de genes bacterianos conservados permite detectar microorganismos no cultivables y evaluar dinámicas microbianas en ambientes acuáticos, sedimentos y sistemas de tratamiento de aguas residuales. La aplicación de técnicas moleculares de nueva generación ha permitido identificar bacterias relacionadas con degradación de contaminantes, resistencia antimicrobiana y adaptación ambiental. Asimismo, investigaciones desarrolladas mediante metagenómica y secuenciación dirigida han revelado la existencia de comunidades bacterianas altamente diversas con importante impacto ecológico. Estas metodologías representan actualmente una alternativa eficiente para la vigilancia microbiológica ambiental y el monitoreo de microorganismos potencialmente patógenos presentes en ecosistemas naturales y urbanos3. 
+El gen recA ha adquirido especial relevancia en microbiología molecular debido a su estabilidad evolutiva y a su adecuada tasa de variación genética. Diversos estudios recientes destacan que este gen proporciona una resolución taxonómica superior en comparación con otros marcadores ampliamente utilizados. Investigaciones enfocadas en bacterias ambientales y microorganismos industriales demostraron que el análisis de recA permite mejorar significativamente la identificación de especies bacterianas complejas y potencialmente nuevas. Además, su aplicación en estudios filogenéticos ha permitido reconstruir relaciones evolutivas con mayor precisión dentro de géneros bacterianos heterogéneos. En microbiología ambiental, la utilización de recA se ha integrado en metodologías de multilocus sequence analysis (MLSA), fortaleciendo los procesos de clasificación taxonómica moderna. Estas características convierten a este gen housekeeping en una herramienta altamente útil para investigaciones relacionadas con biodiversidad microbiana y monitoreo ambiental2. 
+Las tecnologías actuales basadas en PCR, secuenciación de nueva generación y análisis bioinformático han transformado significativamente la identificación bacteriana en estudios ambientales. Recientemente, diferentes investigaciones han reportado que la combinación de genes housekeeping con plataformas de secuenciación masiva mejora la precisión y sensibilidad en la detección bacteriana. La implementación de controles internos, análisis cuantitativos y secuenciación de genes completos ha permitido optimizar la identificación de microorganismos presentes en muestras complejas. Asimismo, el desarrollo de herramientas bioinformáticas y algoritmos de aprendizaje automático ha favorecido la clasificación taxonómica y el análisis de comunidades microbianas en ambientes naturales y sistemas antropogénicos. Estos avances tecnológicos han incrementado la capacidad de identificar microorganismos con importancia ecológica, industrial y sanitaria, fortaleciendo las investigaciones en microbiología molecular y ambiental4. 
+Considerando la importancia sanitaria de las bacterias ambientales, resulta fundamental implementar estrategias moleculares precisas para su identificación y caracterización genética. El empleo del gen housekeeping recA representa una alternativa confiable debido a su capacidad discriminatoria y utilidad filogenética en estudios microbiológicos modernos. La identificación molecular basada en este marcador permite analizar la diversidad bacteriana presente en muestras ambientales y comprender mejor las dinámicas microbianas en diferentes ecosistemas. Además, la integración de técnicas de PCR y secuenciación genética contribuye al fortalecimiento de metodologías aplicadas en microbiología ambiental, biotecnología y vigilancia epidemiológica. En este contexto, la presente investigación se orienta a la identificación de bacterias ambientales mediante el análisis molecular del gen recA, con el propósito de aportar información relevante sobre la diversidad y caracterización genética de microorganismos ambientales5. 
+
+
 2. Metodología  
+## Recolección y procesamiento de muestras
+
+Las muestras ambientales fueron recolectadas bajo condiciones estériles a partir de fuentes naturales seleccionadas de almejas en zona de pesca para el estudio microbiológico. Posteriormente, las muestras fueron transportadas en cadena de frío al laboratorio para su procesamiento dentro de las primeras 24 horas posteriores a la recolección, con el propósito de preservar la viabilidad bacteriana y evitar alteraciones microbiológicas.
+
+## Aislamiento bacteriano
+
+Las muestras recolectadas fueron sembradas en medios de cultivo apropiados para el crecimiento bacteriano mediante técnicas microbiológicas convencionales. Las placas fueron incubadas bajo condiciones controladas de temperatura y tiempo para favorecer el desarrollo de colonias bacterianas. Posteriormente, se realizó la selección y purificación de colonias con características morfológicas compatibles con bacterias ambientales de interés.
+
+## Extracción de ADN genómico
+
+El ADN bacteriano fue extraído a partir de colonias purificadas utilizando protocolos de extracción molecular estandarizados. La calidad e integridad del ADN obtenido fueron evaluadas mediante técnicas de cuantificación y verificación electroforética antes de proceder con los análisis moleculares posteriores.
+
+## Amplificación del gen recA mediante PCR
+
+La identificación molecular se realizó mediante amplificación del gen housekeeping recA utilizando la técnica de reacción en cadena de la polimerasa (PCR). Para ello se emplearon cebadores específicos dirigidos al gen recA, bajo condiciones optimizadas de amplificación. Los productos obtenidos fueron verificados mediante electroforesis en gel de agarosa.
+
+## Secuenciación genética
+
+Los productos amplificados fueron sometidos a secuenciación nucleotídica para obtener las secuencias correspondientes al gen recA. Las secuencias generadas fueron almacenadas en formatos compatibles para análisis bioinformático posterior.
+
+## Control de calidad inicial
+
+Las secuencias obtenidas fueron sometidas a un control de calidad inicial con el objetivo de evaluar la integridad y confiabilidad de las lecturas generadas. Se analizaron parámetros relacionados con longitud de lectura, presencia de nucleótidos ambiguos y calidad de secuencia.
+
+## Preprocesamiento bioinformático
+
+El preprocesamiento de las secuencias incluyó filtrado, depuración y eliminación de regiones de baja calidad mediante herramientas bioinformáticas especializadas. Las secuencias procesadas fueron organizadas en formatos FASTA y FASTQ para facilitar los análisis posteriores.
+
+## Segundo control de calidad
+
+Posterior al preprocesamiento, las secuencias filtradas fueron sometidas nuevamente a análisis de calidad con el propósito de verificar la mejora en la precisión y confiabilidad de las lecturas utilizadas para identificación molecular.
+
+## Identificación molecular y análisis bioinformático
+
+Las secuencias procesadas fueron comparadas con bases de datos genéticas disponibles en el National Center for Biotechnology Information (NCBI) utilizando la herramienta BLASTn. El análisis de similitud genética permitió determinar correspondencia con bacterias pertenecientes al género Vibrio.
+
+## Gestión y almacenamiento de datos
+
+Todos los datos generados durante el estudio, incluyendo secuencias nucleotídicas, resultados de control de calidad, archivos procesados y documentación metodológica, fueron organizados y almacenados en un repositorio desarrollado en GitHub con el propósito de garantizar la reproducibilidad, trazabilidad y disponibilidad del análisis bioinformático realizado.
+
 
 3. Resultados  
 
