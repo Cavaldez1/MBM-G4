@@ -1,1 +1,45 @@
+Proyecto: Identificacion de bacterias ambientales resistentes a betalactamicos 
+Integrantes  
+Nombre: Joel Malacatus  
+Nombre: Christian Valdez  
+Nombre: Helen Correa  
+Nombre: Stephen Sarmiento  
+Objetivo:    
 
+1. Introducción  
+
+2. Metodología  
+
+3. Resultados  
+
+4. Discusión  
+
+5. Conclusiones  
+A partir del procedimiento realizado, se pueden obtener varias conclusiones relacionadas con el control de calidad, el procesamiento bioinformático y la identificación molecular del microorganismo:
+La calidad inicial de las secuencias crudas no era óptima. Con un total de 6 secuencias en formato fastaq.
+Los reportes obtenidos con FastQC⁠ mostraron daños o baja calidad al inicio y al final de las lecturas. Esto es común en secuenciación y puede deberse a errores del secuenciador, adaptadores o pérdida de precisión en los extremos de lectura.
+El uso de Trimmomatic permitió mejorar la calidad de las lecturas.
+El recorte de regiones de baja calidad con Trimmomatic⁠ eliminó nucleótidos problemáticos del principio y final de las secuencias, obteniendo datos más confiables para el análisis posterior. Esto aumenta la precisión en ensamblaje, alineamiento e identificación.
+La conversión y ensamblaje de las secuencias permitió generar una secuencia consenso
+La unión de las lecturas forward y reverse ayudó a reconstruir una secuencia más completa del fragmento analizado. El consenso final representa la región genética más probable obtenida a partir de ambas lecturas.
+La identidad y similitud de 88.6% indican coincidencia parcial con secuencias conocidas
+Un porcentaje de identidad de 88.6% sugiere que la secuencia tiene relación con organismos del género Vibrio, pero no corresponde a una coincidencia perfecta. Esto puede indicar:
+- Presencia de variaciones genéticas.
+- Secuencia incompleta.
+- Regiones de baja cobertura.
+- Errores residuales de secuenciación,
+- Incluso una cepa distinta o poco caracterizada.
+El gen recA permitió la identificación molecular del organismo
+El gen recA es ampliamente utilizado en identificación bacteriana y estudios filogenéticos porque participa en reparación y recombinación del ADN y suele conservarse entre bacterias relacionadas.
+La búsqueda en NCBI permitió asociar la secuencia con Vibrio
+El análisis en NCBI BLAST⁠ indicó afinidad con bacterias del género Vibrio, por lo que el microorganismo analizado probablemente pertenece a este grupo bacteriano.
+El flujo bioinformático aplicado fue adecuado para identificación genética.
+El proceso completo de control de calidad, trimming, ensamblaje, generación de consenso y búsqueda en bases de datos— demuestra un flujo de trabajo estándar y correcto en bioinformática para análisis de secuencias.
+Como conclusión general, el análisis permitió depurar las secuencias originales y obtener una identificación molecular probable de un organismo del género Vibrio mediante el gen recA. Sin embargo, debido a que la identidad obtenida fue de 88.6%, sería recomendable realizar análisis adicionales o secuenciar regiones complementarias para confirmar con mayor precisión la especie exacta.
+
+6. Referencias bibliográficas  
+1.	Durand K, Ogier JC, Nam K. The evaluation of shotgun sequencing and rpoB metabarcoding for taxonomic profiling of bacterial communities. BMC Microbiol. 2025;25:413. doi: 10.1186/s12866-025-04149-3.
+2.	Nunes Ramos J, Veloso da Costa L, Viana Vieira V, Lima Brandão ML. Challenges in the Identification of Environmental Bacterial Isolates from a Pharmaceutical Industry Facility by 16S rRNA Gene Sequences. DNA. 2025;5(3):33. doi: 10.3390/dna5030033
+3.	Jurvansuu J, Länsivaara A, Palmroth M, Kaarela O, Hyöty H, Oikarinen S, et al. Machine learning-based identification of wastewater treatment plant-specific microbial indicators using 16S rRNA gene sequencing. Sci Rep. 2025;15:23771. doi: 10.1038/s41598-025-07952-0
+4.	Valido E, Bertolo A, Stoyanov J. Quantitative profiling of bacterial communities via full length 16S rRNA gene sequencing with internal controls: optimization and validation across diverse human microbiomes. BMC Microbiol. 2025;25:710. doi: 10.1186/s12866-025-04399-1
+5.	Wang C, Yang Y, Xu X, Wang D, Shi X, Liu L, et al. The quest for environmental analytical microbiology: absolute quantitative microbiome using cellular internal standards. Microbiome. 2025 Jan 27;13:26. doi: 10.1186/s40168-024-02009-2
