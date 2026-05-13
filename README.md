@@ -1,6 +1,5 @@
  # MBM-G4
-# Identificación molecular de bacterias ambientales mediante PCR y secuenciación del gen housekeeping recA: control de calidad, preprocesamiento y análisis bioinformático de archivos FASTAq
-## Integrantes:
+# Identificación molecular de bacterias ambientales mediante PCR y secuenciación del gen housekeeping recA
 -Helen Correa 
 -Joel Malacatus 
 -Stephen Sarmiento 
