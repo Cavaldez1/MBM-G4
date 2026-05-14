@@ -5,7 +5,7 @@
  Helen Correa  
  Stephen Sarmiento  
 ## Objetivo:    
-
+Identificar bacterias marinas mediante el análisis bioinformático de secuencias del gen housekeeping recA, utilizando herramientas de control de calidad, preprocesamiento y análisis molecular para determinar similitud genética y posible clasificación taxonómica.
 ## 1. Introducción  
 
 ## 2. Metodología  
