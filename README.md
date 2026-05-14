@@ -8,7 +8,7 @@
 ## Objetivo
 Identificar bacterias marinas mediante el análisis bioinformático de secuencias del gen housekeeping recA, utilizando herramientas de control de calidad, preprocesamiento y análisis molecular para determinar similitud genética y posible clasificación taxonómica.
 ## Dataset
-El dataset utilizado en este proyecto corresponde a secuencias bacterianas ambientales obtenidas mediante secuenciación de ADN y almacenadas en formato FASTQ. 
+El dataset utilizado en este proyecto corresponde a secuencias bacterianas marinas obtenidas mediante secuenciación de ADN y almacenadas en formato FASTQ. 
 Las secuencias analizadas pertenecen al gen housekeeping recA, utilizado como marcador molecular para identificación bacteriana debido a su conservación evolutiva y capacidad discriminatoria entre especies bacterianas.
 ### Archivos analizados
 Los archivos utilizados durante el análisis bioinformático fueron:
