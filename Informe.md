@@ -20,7 +20,7 @@ El ensamblaje de las secuencias forward y reverse mediante EMBOSS merger permiti
 | 21 | 703 | 87.8 | 87.8 | 12.2 | 3085.0 |
 | 22 | 702 | 88.0 | 88.0 | 12.0 | 3090.0 |
 
-Estos resulatdos indican que las secuencias forward y reverse presentan una elevada correspondencia, permitiendo la obtención de secuencias consenso confiables para análisis taxonómicos posteriores. Los porcentajes de identidad cercanos al 88% sugieren la presencia de regiones conservadas del gen *recA*, mientras que los gaps observados podrían asociarse a pequeñas variaciones genéticas, diferencias entre cepas bacterianas o regiones afectadas por el proceso de secuenciación.
+Estos resultados indican que las secuencias forward y reverse presentan una elevada correspondencia, permitiendo la obtención de secuencias consenso confiables para análisis taxonómicos posteriores. Los porcentajes de identidad cercanos al 88% sugieren la presencia de regiones conservadas del gen *recA*, mientras que los gaps observados podrían asociarse a pequeñas variaciones genéticas, diferencias entre cepas bacterianas o regiones afectadas por el proceso de secuenciación.
 
 ### Resultados BLAST
 Las secuencias consenso obtenidas fueron analizadas mediante BLAST en NCBI BLAST, obteniéndose coincidencias predominantes con bacterias del género Vibrio.
