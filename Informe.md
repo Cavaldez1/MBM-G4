@@ -1,4 +1,4 @@
-# IDENTIFICACION DE BACTERIAS AMBIENTALES CON GEN HOUSEKEPPING *recA*
+# IDENTIFICACION DE BACTERIAS MARINAS CON GEN HOUSEKEPPING *recA*
 ## Integrantes  
  Joel Malacatus  
  Christian Valdez  
@@ -8,7 +8,7 @@
 Objetivo general
 Identificar molecularmente bacterias marinas mediante el análisis y secuenciación del gen housekeeping recA, con el fin de determinar su clasificación taxonómica y establecer la presencia de bacterias del género Vibrio en muestras ambientales.
 ## 1. Introducción  
-La identificación molecular de bacterias ambientales se ha convertido en una herramienta fundamental para el estudio de la diversidad microbiana y el monitoreo ecológico de distintos ecosistemas. Las bacterias presentes en suelo, agua y sedimentos participan en procesos biogeoquímicos, biodegradación y transferencia genética, influyendo en la estabilidad ambiental y la salud pública. El desarrollo de técnicas moleculares y de secuenciación ha permitido superar las limitaciones de los métodos microbiológicos tradicionales basados en cultivo, facilitando una identificación más precisa de comunidades bacterianas complejas.
+La identificación molecular de bacterias marinas se ha convertido en una herramienta fundamental para el estudio de la diversidad microbiana y el monitoreo ecológico de distintos ecosistemas. Las bacterias presentes en suelo, agua y sedimentos participan en procesos biogeoquímicos, biodegradación y transferencia genética, influyendo en la estabilidad ambiental y la salud pública. El desarrollo de técnicas moleculares y de secuenciación ha permitido superar las limitaciones de los métodos microbiológicos tradicionales basados en cultivo, facilitando una identificación más precisa de comunidades bacterianas complejas.
 Entre los marcadores moleculares utilizados destacan los genes housekeeping, los cuales poseen regiones conservadas y variables útiles para diferenciación taxonómica. El gen recA ha sido ampliamente empleado debido a su función en recombinación homóloga y reparación del ADN bacteriano, además de presentar una mayor resolución filogenética en comparación con otros marcadores convencionales. Su uso permite distinguir especies bacterianas estrechamente relacionadas y fortalecer estudios evolutivos y de clasificación taxonómica.
 Actualmente, las tecnologías basadas en PCR, secuenciación de nueva generación y análisis bioinformático han mejorado significativamente la identificación bacteriana en microbiología ambiental. Estas metodologías permiten detectar microorganismos no cultivables, analizar comunidades microbianas complejas e identificar bacterias relacionadas con contaminación ambiental, resistencia antimicrobiana y adaptación ecológica.
 En este contexto, el presente proyecto se enfoca en la identificación de bacterias ambientales mediante el análisis molecular del gen housekeeping recA, utilizando herramientas bioinformáticas para el procesamiento, control de calidad y análisis de secuencias bacterianas.
