@@ -19,6 +19,7 @@ El ensamblaje de las secuencias forward y reverse mediante EMBOSS merger permiti
 | 7 | 702 | 88.6 | 88.6 | 11.4 | 3100.0 |
 | 21 | 703 | 87.8 | 87.8 | 12.2 | 3085.0 |
 | 22 | 702 | 88.0 | 88.0 | 12.0 | 3090.0 |
+
 Estos resulatdos indican que las secuencias forward y reverse presentan una elevada correspondencia, permitiendo la obtención de secuencias consenso confiables para análisis taxonómicos posteriores. Los porcentajes de identidad cercanos al 88% sugieren la presencia de regiones conservadas del gen recA, mientras que los gaps observados podrían asociarse a pequeñas variaciones genéticas, diferencias entre cepas bacterianas o regiones afectadas por el proceso de secuenciación.
 
 ### Resultados BLAST
@@ -29,6 +30,7 @@ Las secuencias consenso obtenidas fueron analizadas mediante BLAST en NCBI BLAST
 | 7 | Vibrio sp., Vibrio chaetopteri | 90.74 – 100 |
 | 21 | Vibrio sp., Vibrio ichthyoenteri, Vibrio pelagius | 87.06 – 100 |
 | 22 | Vibrio sp., Vibrio frotis | 87.4 – 100 |
+
 Los resultados sugieren que las muestras analizadas pertenecen a bacterias estrechamente relacionadas con el género Vibrio, un grupo ampliamente distribuido en ambientes acuáticos y reconocido por su importancia ecológica y clínica. La presencia de múltiples coincidencias con porcentajes elevados de similitud indica una conservación importante del gen recA entre las especies detectadas.
 
 ## 4. Discusión  
