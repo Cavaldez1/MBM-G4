@@ -8,6 +8,64 @@
 ## Objetivo
 ## Dataset  
 ## Flujo de Trabajo  
+### 1. Descarga y organización de secuencias
+Las secuencias obtenidas mediante secuenciación Sanger fueron descargadas en formato FASTQ. Para organizar el análisis se creó un directorio denominado Secuencias, donde se almacenaron los archivos correspondientes a las muestras 7, 21 y 22 en formato forward y reverse en total 6 secuencias.
+mkdir Secuencias
+cd Secuencias
+ls -l
+unzip Secuencias_Fasta_7_21_22.zip
+ls -l
+### 2. Evaluación inicial de calidad
+La calidad de las secuencias fue evaluada utilizando FastQC, generando reportes HTML para cada archivo FASTQ.
+eje: fastqc 7fw.fastq
+Posteriormente, los archivos HTML fueron abiertos para visualizar los gráficos de calidad,se generaron reportes individuales.
+### 3. Preprocesamiento 
+La limpieza de secuencias se realizó utilizando Trimmomatic para eliminar regiones de baja calidad y adaptadores.
+Primero se verificó la ubicación del programa dentro del sistema:
+dpkg -L trimmomatic
+java -jar /usr/share/java/trimmomatic-0.39.jar
+
+Posteriormente se ejecutó el trimming individual para cada secuencia.
+Ejemplo para la muestra 7 forward:
+java -jar /usr/share/java/trimmomatic-0.39.jar SE -phred33 \
+7fw.fastq \
+7fw_clean.fastq \
+ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 \
+HEADCROP:15 \
+LEADING:20 \
+TRAILING:20 \
+SLIDINGWINDOW:4:20 \
+MINLEN:50
+Los parámetros permitieron eliminar adaptadores Illumina, recortar los primeros 15 nucleótidos, remover bases de baja calidad y conservar secuencias mayores a 50 pb mediante control de calidad.
+
+Reevaluación de calidad : Las secuencias limpias fueron nuevamente evaluadas con FastQC,eje:
+fastqc 7fw_clean.fastq
+xdg-open 7fw_clean_fastqc.html
+Posteriormente se realizó el trimming de las secuencias, eliminando regiones de baja calidad y zonas problemáticas.
+Los reportes HTML mostraron que las secuencias quedaron aptas para ensamblaje
+
+### 4. Ensamblaje y generación de secuencias consenso 
+Antes del ensamblaje se actualizó el sistema e instalaron herramientas bioinformáticas adicionales:
+VSEARCH
+EMBOSS
+Seqtk
+Las secuencias limpias fueron convertidas de formato FASTQ a FASTA utilizando Seqtk.
+Se generaron correctamente los archivos FASTA a partir de las secuencias limpias, conservando lecturas aptas para el ensamblaje.
+El procedimiento fue repetido para las muestras 21 y 22.
+
+Las secuencias forward y reverse fueron ensambladas utilizando la herramienta merger de EMBOSS.
+merger -asequence 7fw_clean.fasta \
+-bsequence 7re_clean.fasta \
+-outfile 7_recA.txt \
+-outseq 7_recA_consensus.fasta 
+Posteriormente se visualizaron los archivos de alineamiento y las secuencias consenso obtenidas.
+El procedimiento fue aplicado a las muestras 7, 21 y 22.
+
+### 5. Identificación taxonómica mediante BLAST
+Las secuencias consenso obtenidas fueron analizadas utilizando BLAST en NCBI BLAST
+Finalmente se realizó la identificación taxonómica de las secuencias consenso , comparando las muestras 7, 21 y 22 con secuencias registradas en bases de datos para determinar su similitud taxonómica.
+
+
 ## Resultados
 ## Contribución individual 
 ## Scripts Reproducibles 
