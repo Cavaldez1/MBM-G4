@@ -165,10 +165,10 @@ sudo apt update
 sudo apt install vsearch  
 sudo apt install emboss  
 sudo apt install seqtk  
-# Convertir Fastq a Fasta    
+### Convertir Fastq a Fasta    
 seqtk seq -a 7fw_clean.fastq > 7fw_clean.fasta  
 seqtk seq -a 7re_clean.fastq > 7re_clean.fasta  
-# Unir con merger  
+### Unir con merger  
 merger -asequence 7fw_clean.fasta -bsequence 7re_clean.fasta -outfile 7_recA.txt -outseq   7_recA_consensus.fasta  
 genera texto y consenso de fw y rv  
 less 7_recA.txt  
