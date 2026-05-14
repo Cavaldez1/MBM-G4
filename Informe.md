@@ -5,10 +5,38 @@
  Helen Correa  
  Stephen Sarmiento  
 ## Objetivo:    
-
+Objetivo general
+Identificar molecularmente bacterias marinas mediante el análisis y secuenciación del gen housekeeping recA, con el fin de determinar su clasificación taxonómica y establecer la presencia de bacterias del género Vibrio en muestras ambientales.
+Objetivos específicos
+-Aislar y caracterizar bacterias ambientales mediante métodos microbiológicos convencionales a partir de muestras obtenidas del ambiente de estudio.
+-Extraer ADN bacteriano de los aislamientos obtenidos para su posterior análisis molecular.
+-Amplificar el gen housekeeping recA mediante la técnica de reacción en cadena de la polimerasa (PCR) para evaluar su utilidad como marcador molecular en la identificación bacteriana.
+-Secuenciar los productos amplificados del gen recA y analizar las secuencias obtenidas mediante herramientas bioinformáticas y bases de datos genéticas.
 ## 1. Introducción  
-
+La identificación molecular de bacterias ambientales se ha convertido en una herramienta fundamental para el estudio de la diversidad microbiana y el monitoreo ecológico de distintos ecosistemas. Las bacterias presentes en suelo, agua y sedimentos participan en procesos biogeoquímicos, biodegradación y transferencia genética, influyendo en la estabilidad ambiental y la salud pública. El desarrollo de técnicas moleculares y de secuenciación ha permitido superar las limitaciones de los métodos microbiológicos tradicionales basados en cultivo, facilitando una identificación más precisa de comunidades bacterianas complejas.
+Entre los marcadores moleculares utilizados destacan los genes housekeeping, los cuales poseen regiones conservadas y variables útiles para diferenciación taxonómica. El gen recA ha sido ampliamente empleado debido a su función en recombinación homóloga y reparación del ADN bacteriano, además de presentar una mayor resolución filogenética en comparación con otros marcadores convencionales. Su uso permite distinguir especies bacterianas estrechamente relacionadas y fortalecer estudios evolutivos y de clasificación taxonómica.
+Actualmente, las tecnologías basadas en PCR, secuenciación de nueva generación y análisis bioinformático han mejorado significativamente la identificación bacteriana en microbiología ambiental. Estas metodologías permiten detectar microorganismos no cultivables, analizar comunidades microbianas complejas e identificar bacterias relacionadas con contaminación ambiental, resistencia antimicrobiana y adaptación ecológica.
+En este contexto, el presente proyecto se enfoca en la identificación de bacterias ambientales mediante el análisis molecular del gen housekeeping recA, utilizando herramientas bioinformáticas para el procesamiento, control de calidad y análisis de secuencias bacterianas.
+Las muestras ambientales fueron recolectadas bajo condiciones estériles a partir de fuentes naturales seleccionadas de almejas en zona de pesca para el estudio microbiológico. Posteriormente, las muestras fueron transportadas en cadena de frío al laboratorio para su procesamiento dentro de las primeras 24 horas posteriores a la recolección, con el propósito de preservar la viabilidad bacteriana y evitar alteraciones microbiológicas.
 ## 2. Metodología  
+## Aislamiento bacteriano
+Las muestras recolectadas fueron sembradas en medios de cultivo apropiados para el crecimiento bacteriano mediante técnicas microbiológicas convencionales. Las placas fueron incubadas bajo condiciones controladas de temperatura y tiempo para favorecer el desarrollo de colonias bacterianas. Posteriormente, se realizó la selección y purificación de colonias con características morfológicas compatibles con bacterias ambientales de interés.
+## Extracción de ADN genómico
+El ADN bacteriano fue extraído a partir de colonias purificadas utilizando protocolos de extracción molecular estandarizados. La calidad e integridad del ADN obtenido fueron evaluadas mediante técnicas de cuantificación y verificación electroforética antes de proceder con los análisis moleculares posteriores.
+## Amplificación del gen recA mediante PCR
+La identificación molecular se realizó mediante amplificación del gen housekeeping recA utilizando la técnica de reacción en cadena de la polimerasa (PCR). Para ello se emplearon cebadores específicos dirigidos al gen recA, bajo condiciones optimizadas de amplificación. Los productos obtenidos fueron verificados mediante electroforesis en gel de agarosa.
+## Secuenciación genética
+Los productos amplificados fueron sometidos a secuenciación nucleotídica para obtener las secuencias correspondientes al gen recA. Las secuencias generadas fueron almacenadas en formatos compatibles para análisis bioinformático posterior.
+## Control de calidad inicial
+Las secuencias obtenidas fueron sometidas a un control de calidad inicial con el objetivo de evaluar la integridad y confiabilidad de las lecturas generadas. Se analizaron parámetros relacionados con longitud de lectura, presencia de nucleótidos ambiguos y calidad de secuencia.
+## Preprocesamiento bioinformático
+El preprocesamiento de las secuencias incluyó filtrado, depuración y eliminación de regiones de baja calidad mediante herramientas bioinformáticas especializadas. Las secuencias procesadas fueron organizadas en formatos FASTA y FASTQ para facilitar los análisis posteriores.
+## Segundo control de calidad
+Posterior al preprocesamiento, las secuencias filtradas fueron sometidas nuevamente a análisis de calidad con el propósito de verificar la mejora en la precisión y confiabilidad de las lecturas utilizadas para identificación molecular.
+## Identificación molecular y análisis bioinformático
+Las secuencias procesadas fueron comparadas con bases de datos genéticas disponibles en el National Center for Biotechnology Information (NCBI) utilizando la herramienta BLASTn. El análisis de similitud genética permitió determinar correspondencia con bacterias pertenecientes al género Vibrio.
+## Gestión y almacenamiento de datos
+Todos los datos generados durante el estudio, incluyendo secuencias nucleotídicas, resultados de control de calidad, archivos procesados y documentación metodológica, fueron organizados y almacenados en un repositorio desarrollado en GitHub con el propósito de garantizar la reproducibilidad, trazabilidad y disponibilidad del análisis bioinformático realizado.
 
 ## 3. Resultados  
 ### Resultados del ensamblaje
