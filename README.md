@@ -167,8 +167,8 @@ less 7_recA.txt
 less 7_recA_consensus.fasta  
 
 ## Referencias Bibliograficas  
-1.	Durand K, Ogier JC, Nam K. The evaluation of shotgun sequencing and rpoB metabarcoding for taxonomic profiling of bacterial communities. BMC Microbiol. 2025;25:413. doi: 10.1186/s12866-025-04149-3.
-2.	Nunes Ramos J, Veloso da Costa L, Viana Vieira V, Lima Brandão ML. Challenges in the Identification of Environmental Bacterial Isolates from a Pharmaceutical Industry Facility by 16S rRNA Gene Sequences. DNA. 2025;5(3):33. doi: 10.3390/dna5030033
-3.	Jurvansuu J, Länsivaara A, Palmroth M, Kaarela O, Hyöty H, Oikarinen S, et al. Machine learning-based identification of wastewater treatment plant-specific microbial indicators using 16S rRNA gene sequencing. Sci Rep. 2025;15:23771. doi: 10.1038/s41598-025-07952-0
-4.	Valido E, Bertolo A, Stoyanov J. Quantitative profiling of bacterial communities via full length 16S rRNA gene sequencing with internal controls: optimization and validation across diverse human microbiomes. BMC Microbiol. 2025;25:710. doi: 10.1186/s12866-025-04399-1
-5.	Wang C, Yang Y, Xu X, Wang D, Shi X, Liu L, et al. The quest for environmental analytical microbiology: absolute quantitative microbiome using cellular internal standards. Microbiome. 2025 Jan 27;13:26. doi: 10.1186/s40168-024-02009-2
+Durand, K., Ogier, J. C., & Nam, K. (2025). The evaluation of shotgun sequencing and rpoB metabarcoding for taxonomic profiling of bacterial communities. BMC Microbiology, 25, 413. https://doi.org/10.1186/s12866-025-04149-3
+Nunes Ramos, J., Veloso da Costa, L., Viana Vieira, V., & Lima Brandão, M. L. (2025). Challenges in the identification of environmental bacterial isolates from a pharmaceutical industry facility by 16S rRNA gene sequences. DNA, 5(3), 33. https://doi.org/10.3390/dna5030033
+Jurvansuu, J., Länsivaara, A., Palmroth, M., Kaarela, O., Hyöty, H., Oikarinen, S., et al. (2025). Machine learning-based identification of wastewater treatment plant-specific microbial indicators using 16S rRNA gene sequencing. Scientific Reports, 15, 23771. https://doi.org/10.1038/s41598-025-07952-0
+Valido, E., Bertolo, A., & Stoyanov, J. (2025). Quantitative profiling of bacterial communities via full length 16S rRNA gene sequencing with internal controls: optimization and validation across diverse human microbiomes. BMC Microbiology, 25, 710. https://doi.org/10.1186/s12866-025-04399-1
+Wang, C., Yang, Y., Xu, X., Wang, D., Shi, X., Liu, L., et al. (2025). The quest for environmental analytical microbiology: absolute quantitative microbiome using cellular internal standards. Microbiome, 13, 26. https://doi.org/10.1186/s40168-024-02009-2
