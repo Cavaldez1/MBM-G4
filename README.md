@@ -105,10 +105,11 @@ El procedimiento fue aplicado a las muestras 7, 21 y 22.
 Las secuencias consenso obtenidas fueron analizadas utilizando BLAST en NCBI BLAST
 Finalmente se realizó la identificación taxonómica de las secuencias consenso , comparando las muestras 7, 21 y 22 con secuencias registradas en bases de datos para determinar su similitud taxonómica.
 ## Resultados
-El análisis bioinformático de las muestras 7, 21 y 22 permitió obtener secuencias consenso a partir de lecturas Sanger forward y reverse mediante un flujo de control de calidad, limpieza, ensamblaje y análisis taxonómico.
-Tras el procesamiento con Trimmomatic, se eliminaron regiones de baja calidad y las secuencias resultantes (_clean.fastq) mostraron una mejora evidente en la calidad global. Esta mejora fue confirmada mediante FastQC posterior al trimming, donde se observó una mayor proporción de bases dentro de la zona verde, indicando lecturas más estables y adecuadas para análisis posteriores.
-Durante el ensamblaje con EMBOSS merger, las lecturas forward y reverse fueron integradas, generándose tanto un archivo de alineamiento como una secuencia consenso que representa la reconstrucción de la región analizada. Este alineamiento mostró una alta correspondencia entre ambas secuencias, con una longitud final de 702 pb, un 88.6% de identidad y similitud, y un 11.4% de gaps asociados a variaciones menores e indels propios del proceso de secuenciación.
-Finalmente, el análisis mediante BLAST en NCBI evidenció que las secuencias consenso de las tres muestras presentan alta similitud con bacterias del género Vibrio, lo que sugiere su pertenencia a este grupo bacteriano, ampliamente distribuido en ambientes acuáticos y de relevancia ecológica y clínica.
+El análisis bioinformático realizado permitió obtener secuencias consenso confiables del gen *recA* a partir de lecturas Sanger forward y reverse de las muestras 7, 21 y 22. El procesamiento con Trimmomatic y la reevaluación mediante FastQC evidenciaron una mejora significativa en la calidad de las secuencias, observándose lecturas más estables y adecuadas para análisis moleculares posteriores.
+
+Los ensamblajes obtenidos mediante EMBOSS merger mostraron altos porcentajes de identidad y similitud (~88%), indicando una adecuada correspondencia entre las secuencias analizadas y permitiendo reconstruir regiones conservadas del gen *recA*. Los gaps observados podrían estar asociados a pequeñas variaciones genéticas, diferencias entre cepas bacterianas o indels generados durante el proceso de secuenciación.
+
+El análisis mediante BLAST mostró coincidencias predominantes con bacterias del género *Vibrio*, grupo ampliamente distribuido en ambientes acuáticos y caracterizado por una importante diversidad genética y ecológica. La elevada similitud observada entre las secuencias analizadas y diferentes especies de *Vibrio* sugiere que las muestras ambientales estudiadas pertenecen a bacterias estrechamente relacionadas con este género bacteriano.
 
 ## Scripts Reproducibles 
 Descargamos las secuencias en formato fastq  
