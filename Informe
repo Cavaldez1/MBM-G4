@@ -19,7 +19,7 @@ Entre los marcadores moleculares utilizados destacan los genes housekeeping, los
 Actualmente, las tecnologías basadas en PCR, secuenciación de nueva generación y análisis bioinformático han mejorado significativamente la identificación bacteriana en microbiología ambiental. Estas metodologías permiten detectar microorganismos no cultivables, analizar comunidades microbianas complejas e identificar bacterias relacionadas con contaminación ambiental, resistencia antimicrobiana y adaptación ecológica.
 En este contexto, el presente proyecto se enfoca en la identificación de bacterias ambientales mediante el análisis molecular del gen housekeeping recA, utilizando herramientas bioinformáticas para el procesamiento, control de calidad y análisis de secuencias bacterianas.
 Las muestras ambientales fueron recolectadas bajo condiciones estériles a partir de fuentes naturales seleccionadas de almejas en zona de pesca para el estudio microbiológico. Posteriormente, las muestras fueron transportadas en cadena de frío al laboratorio para su procesamiento dentro de las primeras 24 horas posteriores a la recolección, con el propósito de preservar la viabilidad bacteriana y evitar alteraciones microbiológicas.
-2. Metodologpia
+2. Metodología
 ## Aislamiento bacteriano
 Las muestras recolectadas fueron sembradas en medios de cultivo apropiados para el crecimiento bacteriano mediante técnicas microbiológicas convencionales. Las placas fueron incubadas bajo condiciones controladas de temperatura y tiempo para favorecer el desarrollo de colonias bacterianas. Posteriormente, se realizó la selección y purificación de colonias con características morfológicas compatibles con bacterias ambientales de interés.
 ## Extracción de ADN genómico
