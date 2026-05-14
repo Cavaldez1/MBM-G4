@@ -7,11 +7,6 @@
 ## Objetivo:    
 Objetivo general
 Identificar molecularmente bacterias marinas mediante el análisis y secuenciación del gen housekeeping recA, con el fin de determinar su clasificación taxonómica y establecer la presencia de bacterias del género Vibrio en muestras ambientales.
-Objetivos específicos
--Aislar y caracterizar bacterias ambientales mediante métodos microbiológicos convencionales a partir de muestras obtenidas del ambiente de estudio.
--Extraer ADN bacteriano de los aislamientos obtenidos para su posterior análisis molecular.
--Amplificar el gen housekeeping recA mediante la técnica de reacción en cadena de la polimerasa (PCR) para evaluar su utilidad como marcador molecular en la identificación bacteriana.
--Secuenciar los productos amplificados del gen recA y analizar las secuencias obtenidas mediante herramientas bioinformáticas y bases de datos genéticas.
 ## 1. Introducción  
 La identificación molecular de bacterias ambientales se ha convertido en una herramienta fundamental para el estudio de la diversidad microbiana y el monitoreo ecológico de distintos ecosistemas. Las bacterias presentes en suelo, agua y sedimentos participan en procesos biogeoquímicos, biodegradación y transferencia genética, influyendo en la estabilidad ambiental y la salud pública. El desarrollo de técnicas moleculares y de secuenciación ha permitido superar las limitaciones de los métodos microbiológicos tradicionales basados en cultivo, facilitando una identificación más precisa de comunidades bacterianas complejas.
 Entre los marcadores moleculares utilizados destacan los genes housekeeping, los cuales poseen regiones conservadas y variables útiles para diferenciación taxonómica. El gen recA ha sido ampliamente empleado debido a su función en recombinación homóloga y reparación del ADN bacteriano, además de presentar una mayor resolución filogenética en comparación con otros marcadores convencionales. Su uso permite distinguir especies bacterianas estrechamente relacionadas y fortalecer estudios evolutivos y de clasificación taxonómica.
