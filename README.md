@@ -110,7 +110,6 @@ Tras el procesamiento con Trimmomatic, se eliminaron regiones de baja calidad y 
 Durante el ensamblaje con EMBOSS merger, las lecturas forward y reverse fueron integradas, generándose tanto un archivo de alineamiento como una secuencia consenso que representa la reconstrucción de la región analizada. Este alineamiento mostró una alta correspondencia entre ambas secuencias, con una longitud final de 702 pb, un 88.6% de identidad y similitud, y un 11.4% de gaps asociados a variaciones menores e indels propios del proceso de secuenciación.
 Finalmente, el análisis mediante BLAST en NCBI evidenció que las secuencias consenso de las tres muestras presentan alta similitud con bacterias del género Vibrio, lo que sugiere su pertenencia a este grupo bacteriano, ampliamente distribuido en ambientes acuáticos y de relevancia ecológica y clínica.
 
-## Contribución individual 
 ## Scripts Reproducibles 
 Descargamos las secuencias en formato fastq  
 Generamos la carpeta: mkdir Secuencias  
