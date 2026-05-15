@@ -28,6 +28,8 @@ Las secuencias obtenidas fueron sometidas a un control de calidad inicial con el
 El preprocesamiento de las secuencias incluyó filtrado, depuración y eliminación de regiones de baja calidad mediante herramientas bioinformáticas especializadas. Las secuencias procesadas fueron organizadas en formatos FASTA y FASTQ para facilitar los análisis posteriores.
 ## Segundo control de calidad
 Posterior al preprocesamiento, las secuencias filtradas fueron sometidas nuevamente a análisis de calidad con el propósito de verificar la mejora en la precisión y confiabilidad de las lecturas utilizadas para identificación molecular.
+## Secuencias consensus
+Una vez óptenidas las secuencias limpias, estas fueron emsambladas para generar la secuencia consenso a partir de las secuencias forward y reverse de cada aislado 7, 21 y 22
 ## Identificación molecular y análisis bioinformático
 Las secuencias procesadas fueron comparadas con bases de datos genéticas disponibles en el National Center for Biotechnology Information (NCBI) utilizando la herramienta BLASTn. El análisis de similitud genética permitió determinar correspondencia con bacterias pertenecientes al género Vibrio.
 ## Gestión y almacenamiento de datos
