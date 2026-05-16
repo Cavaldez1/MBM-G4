@@ -50,14 +50,14 @@ Estos resultados indican que las secuencias forward y reverse presentan una elev
 ### Resultados BLAST
 Las secuencias consenso obtenidas fueron analizadas mediante BLAST en NCBI BLAST, obteniéndose coincidencias predominantes con bacterias del género Vibrio.
 
-| Muestra | Principales coincidencias | Similitud (%) |
-|---|---|---|
-| 7 | *Vibrio sp.*, *Vibrio chaetopteri* | 90.74 – 100 |
-| 21 | *Vibrio sp*., *Vibrio ichthyoenteri*, *Vibrio pelagius* | 87.06 – 100 |
-| 22 | *Vibrio sp*., *Vibrio frotis* | 87.4 – 100 |
+| Muestra | Principales coincidencias | Similitud (%) | E-value |
+|---|---|---|---|
+| 7 | *Vibrio sp.*, *Vibrio chaetopteri* | 90.74 – 100 | 0.0 |
+| 21 | *Vibrio sp*., *Vibrio ichthyoenteri*, *Vibrio pelagius* | 87.06 – 100 | 0.0 |
+| 22 | *Vibrio sp*., *Vibrio frotis* | 87.4 – 100 | 0.0 |
 
-Los resultados sugieren que las muestras analizadas pertenecen a bacterias estrechamente relacionadas con el género *Vibrio*, un grupo ampliamente distribuido en ambientes acuáticos y reconocido por su importancia ecológica y clínica. La presencia de múltiples coincidencias con porcentajes elevados de similitud indica una conservación importante del gen recA entre las especies detectadas.
-
+Los resultados sugieren que las muestras analizadas pertenecen a bacterias estrechamente relacionadas con el género *Vibrio*, un grupo ampliamente distribuido en ambientes acuáticos y reconocido por su importancia ecológica y clínica. Los altos porcentajes de identidad obtenidos evidencian una importante conservación del gen recA entre las especies identificadas.
+Todos los alineamientos obtenidos mediante BLAST presentaron valores de E-value = 0.0, lo que indica una similitud extremadamente significativa entre las secuencias y una probabilidad prácticamente nula de que dicha coincidencia ocurra por azar.
 ## 4. Discusión 
 El flujo de trabajo bioinformático aplicado permitió obtener secuencias consenso confiables del gen *recA* mediante control de calidad, trimming y ensamblaje de lecturas forward y reverse. La mejora observada en la calidad de las secuencias después del procesamiento permitió reducir regiones problemáticas y obtener lecturas aptas para análisis taxonómicos, aspecto considerado fundamental en estudios de secuenciación bacteriana [Valido, Bertolo, & Stoyanov, 2025](#ref4).
 
